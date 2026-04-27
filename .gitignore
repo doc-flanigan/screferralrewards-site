@@ -78,6 +78,9 @@ web_modules/
 .next
 out
 
+# Local Claude Code settings
+.claude/
+
 # Nuxt.js build / generate output
 .nuxt
 dist
