@@ -1,17 +1,18 @@
-# screferralrewards.com / screferralbonus.com
+# screferralrewards.com
 
-> **Highest-conversion referral site in the o7citizen.com portfolio**
+> **Veteran-facing referral rewards site in the o7citizen.com portfolio**
 
-Targets both new players looking for a referral code and veteran players
-tracking their recruitment rewards. Both screferralrewards.com and
-screferralbonus.com point to this codebase.
+Targets veteran Star Citizen players tracking their recruitment rewards and
+climbing the referral ladder. Sister site
+[screferralbonus.com](https://github.com/doc-flanigan/screferralbonus-site)
+covers the new-player bonus/code intent on its own deploy.
 
 ## Referral Code
 **STAR-GCQJ-N6NC**
 https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
 
 ## Funnel
-screferralbonus.com / screferralrewards.com → code + explanation →
+screferralrewards.com → rewards ladder + event tracker →
 o7citizen.com → RSI signup
 
 ## Pages
@@ -32,9 +33,8 @@ npm install && npm run dev
 Update `src/data/events.ts` when CIG announces a new referral bonus event.
 
 ## Domain Config
-Both domains should be added in Vercel project settings under Domains.
-Primary: screferralrewards.com
-Alias: screferralbonus.com
+Add screferralrewards.com under Vercel project → Domains.
+(screferralbonus.com is a separate repo/deploy; do not alias it here.)
 
 ## Disclaimer
 Unofficial fan site. Not affiliated with Cloud Imperium Games or Star Citizen.

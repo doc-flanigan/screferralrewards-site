@@ -1,12 +1,14 @@
-# CLAUDE.md — screferralrewards.com / screferralbonus.com
+# CLAUDE.md — screferralrewards.com
 
 ## Project Overview
-The highest-conversion site in the portfolio. Targets two audiences:
-  1. New players searching "star citizen referral code" or "star citizen bonus"
-     (screferralbonus.com traffic) — about to sign up, need code NOW
-  2. Veteran players searching "star citizen referral rewards" or "referral
-     ladder" (screferralrewards.com traffic) — tracking their recruitment score
-Both domains point to this same codebase. Handle both intents on the same site.
+Veteran-leaning conversion site in the portfolio. Targets players searching
+"star citizen referral rewards" or "referral ladder" — backers tracking their
+recruitment score and looking for ways to climb tiers. Also captures some
+new-player traffic searching "star citizen referral code" but the primary
+intent here is veteran/recruitment-focused.
+
+Sister site: screferralbonus.com handles the pure new-player bonus intent
+(separate repo: screferralbonus-site). Don't duplicate its content here.
 
 ## Agentic Build Instructions
 Incremental agents only. Confirm each before proceeding.
