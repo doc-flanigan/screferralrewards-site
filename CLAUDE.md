@@ -20,12 +20,12 @@ Incremental agents only. Confirm each before proceeding.
     goldDark: '#ccac00'
     platinum: '#e8e8e8'
     muted: '#6b7280'
-- Hero image placeholders (10 images)
+- Hero image placeholders (12 images)
 - Made-by-community placeholder
 - Confirm dev server
 
 ### Agent 2 — Components
-- HeroCarousel.tsx (10 slides)
+- HeroCarousel.tsx (12 slides)
 - ReferralCodeBox.tsx: prominent display of referral URL with copy-to-clipboard
   button. URL: https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
   Style: large, impossible to miss, gold bordered box
