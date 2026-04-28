@@ -34,15 +34,15 @@ const STEPS = [
   },
   {
     n: '4',
-    title: 'Make your first qualifying purchase',
-    body: 'Buy any game package (the cheapest is around $45 — Mustang Alpha Starter or similar). The 50,000 UEC bonus is credited shortly after the purchase clears.',
-    note: 'A free-fly account alone does not trigger the bonus. You need a paid game package to qualify.'
+    title: 'Receive 50,000 UEC automatically',
+    body: 'Per the official RSI referral program, anyone registering with a referral code automatically receives 50,000 UEC — no purchase required. The credit appears in your account once signup completes.',
+    note: 'Applying the code retroactively (within the 24-hour window) is also valid, but RSI notes there may be a delay before the bonus credits. Apply at signup for instant credit.'
   },
   {
     n: '5',
     title: 'Spend or save your UEC',
-    body: 'Once credited, the 50,000 UEC sits in your hangar wallet. Use it on the in-game store for components, weapons, armor, or save it as a trade float.',
-    note: 'UEC does not expire. You can sit on it until you know what loadout you want.'
+    body: 'The 50,000 UEC sits in your hangar wallet. Use it at in-game shops and kiosks for components, weapons, armor, or save it as a trade float. UEC does not expire.',
+    note: 'Note: actually playing the game requires a Game Package (separate purchase), or access during a Free Fly window. Your 50,000 UEC bonus is independent of either.'
   }
 ];
 
@@ -112,28 +112,30 @@ export default function GetTheCodePage() {
             <li className="flex gap-3">
               <span className="text-gold font-bold">→</span>
               <span>
-                Your hangar wallet is updated with 50,000 UEC after the first qualifying
-                purchase clears (usually instant, occasionally up to 24 hours).
+                Your account is credited with 50,000 UEC automatically. RSI notes there may
+                be a brief delay if the code is applied retroactively rather than at signup.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-gold font-bold">→</span>
               <span>
-                Your account is now eligible to use UEC at any in-game shop or kiosk during
-                your sessions.
+                You can spend that UEC at any in-game shop or kiosk during your sessions —
+                ship components, weapons, armor, consumables.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-gold font-bold">→</span>
               <span>
-                You will receive your own referral code on your RSI dashboard — share it to
-                start climbing the rewards ladder yourself.
+                If you want to actually fly, you&apos;ll either pledge for a Game Package or
+                wait for an RSI Free Fly window. Either way, your 50,000 UEC bonus is
+                already yours.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-gold font-bold">→</span>
               <span>
-                Download the launcher from your RSI dashboard and you are ready to fly.
+                Download the RSI Launcher from your account dashboard, install Star Citizen,
+                and you&apos;re ready to fly when you have Game Package access.
               </span>
             </li>
           </ul>

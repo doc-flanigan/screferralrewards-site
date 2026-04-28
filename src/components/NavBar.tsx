@@ -4,7 +4,6 @@ import { HUB_URL } from '@/data/referral';
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/get-the-code', label: 'Get the Code' },
-  { href: '/rewards-ladder', label: 'Rewards Ladder' },
   { href: '/event-tracker', label: 'Event Tracker' },
   { href: '/#faq', label: 'FAQ' }
 ];

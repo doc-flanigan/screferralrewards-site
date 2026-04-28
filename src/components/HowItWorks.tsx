@@ -7,12 +7,12 @@ const STEPS = [
   {
     n: '2',
     title: 'Enter Code STAR-GCQJ-N6NC',
-    body: 'During signup, paste the referral code into the "Referral Code" field. You have a 24-hour window from account creation to apply the code — do not skip this step.'
+    body: 'During signup, paste the referral code into the "Referral Code" field. RSI also allows the code to be added retroactively within 24 hours of account creation, but applying it during signup ensures the bonus is credited immediately.'
   },
   {
     n: '3',
-    title: 'Receive 50,000 UEC',
-    body: 'After your first qualifying purchase (game package), the 50,000 UEC bonus is credited to your hangar. Spend it on components, weapons, armor, or save it for in-game.'
+    title: 'Receive 50,000 UEC Automatically',
+    body: 'Per the official RSI program, anyone registering with a referral code automatically receives 50,000 UEC — no purchase required. Spend it on components, weapons, armor, or save it as a trade float.'
   }
 ];
 

@@ -5,7 +5,6 @@ import HeroCarousel from '@/components/HeroCarousel';
 import CountdownTimer from '@/components/CountdownTimer';
 import HowItWorks from '@/components/HowItWorks';
 import UecSpendGrid from '@/components/UecSpendGrid';
-import RewardsLadder from '@/components/RewardsLadder';
 import EventHistoryTable from '@/components/EventHistoryTable';
 import FaqAccordion from '@/components/FaqAccordion';
 import SectionHeading from '@/components/SectionHeading';
@@ -122,26 +121,6 @@ export default function Home() {
           </div>
         </section>
       )}
-
-      {/* FOR VETERANS — REWARDS LADDER */}
-      <section className="px-4 sm:px-6 py-16 bg-charcoalMid/40 border-y border-white/5">
-        <div className="max-w-4xl mx-auto">
-          <SectionHeading
-            eyebrow="For Veterans"
-            title="Track Your Referral Rewards"
-            subtitle="Already a backer? Every successful recruit using your code climbs you up the RSI rewards ladder — exclusive cosmetics, paints, and recognition. Share your own code to start stacking tiers."
-          />
-          <RewardsLadder />
-          <div className="text-center mt-8">
-            <Link
-              href="/rewards-ladder"
-              className="inline-block text-sm text-gold hover:underline"
-            >
-              See the full rewards ladder →
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* EVENT HISTORY */}
       <section className="px-4 sm:px-6 py-16">

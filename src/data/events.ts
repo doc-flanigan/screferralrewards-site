@@ -1,61 +1,51 @@
 export type ReferralEvent = {
   name: string;
-  startDate: string; // ISO
+  startDate: string; // ISO; for events without verified specific dates, use the first of the month
   endDate: string; // ISO
   reward: string;
   status: 'past' | 'live' | 'upcoming';
   note?: string;
+  source?: string;
 };
 
-// Pre-populated representative event history. Edit dates/rewards to match
-// verified RSI announcements before launch.
+// Verified against Roberts Space Industries comm-link transmissions and the
+// Star Citizen Wiki (starcitizen.tools). The standard 50,000 UEC bonus is
+// always available and is NOT increased during these events — RSI instead
+// grants an extra one-time ship/item to the recruiter (and sometimes the
+// recruit) for a limited window. Confirm exact item details on the linked
+// RSI comm-link before launch.
+
 export const REFERRAL_EVENTS: ReferralEvent[] = [
   {
-    name: 'Anniversary 2024 — Bonus UEC Drive',
-    startDate: '2024-11-22',
-    endDate: '2024-12-02',
-    reward: '75,000 UEC + exclusive paint',
+    name: 'Invictus Launch Week 2955 — Referral Bonus',
+    startDate: '2025-05-15',
+    endDate: '2025-05-27',
+    reward: 'Kruger P-52 Merlin (recruiter)',
     status: 'past',
-    note: 'Promo doubled standard bonus during the Anniversary Sale window.'
+    note: 'Recruit a friend who pledges during ILW 2955 and earn a free Kruger P-52 Merlin. Standard 50,000 UEC bonus to the recruit is unchanged.',
+    source:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/20580-Invictus-Launch-Week-2955-Referral-Bonus'
   },
   {
-    name: 'Invictus Launch Week 2025',
-    startDate: '2025-05-23',
-    endDate: '2025-06-02',
-    reward: '100,000 UEC + ILW commemorative item',
+    name: 'IAE 2955 — Referral Bonus',
+    startDate: '2025-11-20',
+    endDate: '2025-12-03',
+    reward: 'Drake Dragonfly "Star Kitten" Edition (recruiter)',
     status: 'past',
-    note: 'Tied to free-fly weekend; high recruitment volume reported.'
+    note: 'Held at the Vision Center, Orison, Crusader. Standard 50,000 UEC bonus to the recruit is unchanged.',
+    source:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/20867-IAE-2955-Referral-Bonus'
   },
   {
-    name: 'CitizenCon 2025 — Recruit Drive',
-    startDate: '2025-10-10',
-    endDate: '2025-10-19',
-    reward: '50,000 UEC + cosmetic helmet',
-    status: 'past'
-  },
-  {
-    name: 'Anniversary 2025 — IAE Referral Bonus',
-    startDate: '2025-11-21',
-    endDate: '2025-12-01',
-    reward: '75,000 UEC + ship paint',
-    status: 'past',
-    note: 'Layered with IAE free-fly traffic.'
-  },
-  {
-    name: 'Free Fly: Q1 2026',
-    startDate: '2026-02-14',
-    endDate: '2026-02-24',
-    reward: '50,000 UEC standard bonus',
-    status: 'past'
-  },
-  {
-    name: 'Invictus Launch Week 2026 — Expected',
-    startDate: '2026-05-22',
-    endDate: '2026-06-01',
-    reward: 'TBA — Expect 50,000–100,000 UEC bonus window',
+    name: 'Invictus Launch Week 2956 — Expected',
+    startDate: '2026-05-15',
+    endDate: '2026-05-27',
+    reward: 'TBA — RSI typically announces 1–2 weeks before the event',
     status: 'upcoming',
-    note: 'Historical pattern; confirm via RSI Comm-Link closer to date.'
+    note: 'Expected based on the past Invictus cadence. Confirm via RSI Comm-Link closer to date.',
+    source: 'https://robertsspaceindustries.com/en/comm-link?text=Referral+Bonus'
   }
 ];
 
+// Standard new-recruit bonus, always available outside event windows.
 export const STANDARD_BONUS = '50,000 UEC';
