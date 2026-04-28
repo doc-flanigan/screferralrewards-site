@@ -9,35 +9,29 @@ export type ReferralEvent = {
 };
 
 // All entries describe the event from the new-player's perspective — what
-// signing up with a referral code during this window actually gets you. The
-// 50,000 UEC referral bonus is the standard amount granted to anyone using
-// any referral code at signup; during these event windows that bonus is
-// paired with free-fly access, which is the real reason to time your signup
-// to one of these dates.
-//
-// Verified against RSI Comm-Link transmissions (see source URLs) and the
-// Star Citizen Wiki (starcitizen.tools).
+// signing up with a referral code during this window actually gets you.
+// Verified verbatim against RSI Comm-Link transmissions via api.star-citizen.wiki.
 
 export const REFERRAL_EVENTS: ReferralEvent[] = [
   {
     name: 'Invictus Launch Week 2955',
     startDate: '2025-05-15',
     endDate: '2025-05-27',
-    reward: '50,000 UEC + free-fly access',
+    reward: '50,000 UEC + Aegis Avenger Titan free-fly loan',
     status: 'past',
-    note: 'Annual UEE Navy showcase. Free-fly window let new accounts play most ships at no cost — sign up with a referral code during this window and the standard 50,000 UEC bonus credits immediately, no game package required to start flying.',
+    note: 'From May 15–27, 2025, every player received an Aegis Avenger Titan to fly for the duration of the event, plus rental access to nearly 150 ships at the Bevic Convention Center on ArcCorp. New accounts that signed up with a referral code during this window also received the standard 50,000 UEC bonus.',
     source:
-      'https://robertsspaceindustries.com/en/comm-link/transmission/20580-Invictus-Launch-Week-2955-Referral-Bonus'
+      'https://robertsspaceindustries.com/en/comm-link/transmission/20491-About-Invictus-Launch-Week-2955'
   },
   {
     name: 'IAE 2955 — Intergalactic Aerospace Expo',
     startDate: '2025-11-20',
     endDate: '2025-12-03',
-    reward: '50,000 UEC + free-fly access to ~200 ships',
+    reward: '50,000 UEC + Star Kitten Racing Gear Pack + free-fly access to ~200 ships',
     status: 'past',
-    note: 'Largest annual Star Citizen event. Nearly 200 flyable and drivable vehicles open to all players during the window; new accounts that signed up with a referral code received the standard 50,000 UEC bonus and could test the full lineup with no purchase needed.',
+    note: 'Per the official IAE 2955 announcement: when a new citizen signed up with a referral code AND picked up a game package during the event, they received an exclusive Star Kitten Racing Gear Pack on top of the standard 50,000 UEC bonus. Free-fly access let new accounts try nearly 200 ships across the show floor at the Vision Center, Orison.',
     source:
-      'https://robertsspaceindustries.com/en/comm-link/transmission/20867-IAE-2955-Referral-Bonus'
+      'https://robertsspaceindustries.com/en/comm-link/transmission/20797-IAE-2955-About'
   },
   {
     name: 'Invictus Launch Week 2956 — Expected',
@@ -45,7 +39,7 @@ export const REFERRAL_EVENTS: ReferralEvent[] = [
     endDate: '2026-05-27',
     reward: '50,000 UEC + free-fly access (expected)',
     status: 'upcoming',
-    note: 'Expected based on RSI’s historical Invictus cadence. Plan to sign up during this window for the standard 50,000 UEC bonus paired with free-fly access — final dates and any extra perks confirmed via RSI Comm-Link closer to the event.',
+    note: 'Based on RSI’s historical Invictus cadence. Expect a free-fly window paired with the standard 50,000 UEC referral bonus; any extra recruit-side perks (themed gear pack, loaner ship) will be announced via RSI Comm-Link closer to the event.',
     source: 'https://robertsspaceindustries.com/en/comm-link?text=Referral+Bonus'
   }
 ];
