@@ -1,4 +1,4 @@
-# screferralrewards.com
+# screferralreward.com
 
 > **Veteran-facing referral rewards site in the o7citizen.com portfolio**
 
@@ -12,7 +12,7 @@ covers the new-player bonus/code intent on its own deploy.
 https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
 
 ## Funnel
-screferralrewards.com → rewards ladder + event tracker →
+screferralreward.com → rewards ladder + event tracker →
 o7citizen.com → RSI signup
 
 ## Pages
@@ -33,7 +33,7 @@ npm install && npm run dev
 Update `src/data/events.ts` when CIG announces a new referral bonus event.
 
 ## Domain Config
-Add screferralrewards.com under Vercel project → Domains.
+Add screferralreward.com under Vercel project → Domains.
 (screferralbonus.com is a separate repo/deploy; do not alias it here.)
 
 ## Disclaimer

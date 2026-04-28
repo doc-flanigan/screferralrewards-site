@@ -15,7 +15,7 @@ export default function NavBar() {
         <Link href="/" className="flex items-center gap-2 group">
           <span className="inline-block w-2 h-2 rounded-full bg-gold shadow-[0_0_10px_#ffd700]" />
           <span className="font-display font-bold tracking-wide text-platinum group-hover:text-gold transition-colors">
-            screferralrewards
+            screferralreward
           </span>
         </Link>
         <ul className="hidden md:flex items-center gap-6 text-sm">

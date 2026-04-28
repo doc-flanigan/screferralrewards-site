@@ -6,16 +6,16 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: {
     default: 'Star Citizen Referral Code 2026 — Get 50,000 UEC Free',
-    template: '%s | screferralrewards.com'
+    template: '%s | screferralreward.com'
   },
   description:
     'Use a Star Citizen referral code when you sign up to get 50,000 free UEC. Code: STAR-GCQJ-N6NC. Updated for 2026.',
-  metadataBase: new URL('https://screferralrewards.com'),
+  metadataBase: new URL('https://screferralreward.com'),
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
-    siteName: 'screferralrewards.com',
-    url: 'https://screferralrewards.com',
+    siteName: 'screferralreward.com',
+    url: 'https://screferralreward.com',
     title: 'Star Citizen Referral Code 2026 — Get 50,000 UEC Free',
     description:
       'Use code STAR-GCQJ-N6NC to claim 50,000 UEC bonus on a new RSI account. Updated for 2026.',

@@ -4,7 +4,7 @@ export default function OrgJsonLd() {
   const json = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'screferralrewards.com',
+    name: 'screferralreward.com',
     url: SITE_URL,
     description:
       'Star Citizen referral code site — get 50,000 UEC bonus with code STAR-GCQJ-N6NC.',

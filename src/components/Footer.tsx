@@ -10,7 +10,7 @@ export default function Footer() {
             Fan Disclaimer
           </h3>
           <p className="text-platinum/70 leading-relaxed">
-            screferralrewards.com is an unofficial fan site. Star Citizen® and Roberts Space
+            screferralreward.com is an unofficial fan site. Star Citizen® and Roberts Space
             Industries® are trademarks of Cloud Imperium Rights LLC. This site is not endorsed
             by or affiliated with the Cloud Imperium group of companies. All ship names, logos,
             and game content are the property of their respective owners. Made by a backer, for
@@ -52,7 +52,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-xs text-platinum/40 flex flex-col sm:flex-row justify-between gap-2">
-          <span>© {new Date().getFullYear()} screferralrewards.com</span>
+          <span>© {new Date().getFullYear()} screferralreward.com</span>
           <span>o7 ✊ — fly safe, citizen.</span>
         </div>
       </div>

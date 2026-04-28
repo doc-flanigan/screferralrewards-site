@@ -1,4 +1,4 @@
-# CLAUDE.md — screferralrewards.com
+# CLAUDE.md — screferralreward.com
 
 ## Project Overview
 Veteran-leaning conversion site in the portfolio. Targets players searching
