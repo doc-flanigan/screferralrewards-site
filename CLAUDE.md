@@ -22,6 +22,15 @@ content that competes with that single funnel.
   (plural) as historical artifacts; these are internal IDs and do not need
   to be renamed.
 
+## Quick Reference
+
+```
+Referral code:  STAR-GCQJ-N6NC
+Enlist URL:     https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
+Hub:            https://dayonecitizen.com
+Conventions:    E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md
+```
+
 ## Pages
 
 ```
@@ -92,7 +101,7 @@ will receive…"). Quote the both-sides version.
 
 - **Code:** STAR-GCQJ-N6NC
 - **Enlist URL:** https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
-- **Hub:** https://o7citizen.com
+- **Hub:** https://dayonecitizen.com
 - **Bonus:** 50,000 UEC, automatic at signup with the code (no purchase
   required for the recruit's bonus). 24-hour grace period if applied
   retroactively.
@@ -108,21 +117,6 @@ platinum      #e8e8e8
 muted         #6b7280
 ```
 
-## Footer spec
-
-1. Fan disclaimer (unofficial fan site, RSI/Star Citizen® marks belong to CIG).
-2. FTC affiliate disclosure: "If you create a Star Citizen account using
-   referral code STAR-GCQJ-N6NC, the site owner (Doc_Flanigan) will receive
-   an in-game bonus reward. You still receive your full 50,000 UEC bonus."
-3. RSI "Made by the Community" badge.
-
-## Tech stack
-
-Next.js 14 (patched 14.2.x) · TypeScript · Tailwind · framer-motion · Vercel.
-`npm run build` must pass before commit. SEO: per-page metadata,
-`src/app/sitemap.ts`, `src/app/robots.ts`, BreadcrumbList JSON-LD on every
-page, FAQPage + WebSite JSON-LD on the homepage.
-
 ## Hosting
 
 - Vercel project: `screferralrewards-site` (team `scottgayden-5755s-projects`)
@@ -132,11 +126,10 @@ page, FAQPage + WebSite JSON-LD on the homepage.
   apex `screferralreward.com` pending (DNS already delegated to Vercel via
   GoDaddy nameservers `ns1.vercel-dns.com` / `ns2.vercel-dns.com`).
 
-## Commit convention
+## Network Conventions
 
-`feat:` / `fix:` / `seo:` / `docs:` / `chore:` — one-line subject + body
-explaining the *why*. Quote verbatim from authoritative sources when
-correcting facts.
+See `E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md` for footer spec,
+tone rules, commit convention, and tech stack.
 
 ## Things explicitly out of scope
 
