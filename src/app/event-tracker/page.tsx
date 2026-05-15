@@ -59,7 +59,7 @@ export default function EventTrackerPage() {
           <SectionHeading
             eyebrow="Set A Reminder"
             title="Don&apos;t Miss The Next Bonus Window"
-            subtitle="The o7citizen.com network publishes a free new-citizen newsletter that flags upcoming free-fly weekends, IAE, and bonus UEC promos before they go live."
+            subtitle="The dayonecitizen.com network publishes a free new-citizen newsletter that flags upcoming free-fly weekends, IAE, and bonus UEC promos before they go live."
           />
           <div className="bg-charcoalMid border border-gold/30 rounded-xl p-6 sm:p-8 text-center">
             <p className="text-platinum/80 mb-4">
@@ -72,7 +72,7 @@ export default function EventTrackerPage() {
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-md border border-gold text-gold hover:bg-gold hover:text-charcoal transition-colors font-bold"
             >
-              Visit o7citizen.com →
+              Visit dayonecitizen.com →
             </a>
           </div>
         </div>

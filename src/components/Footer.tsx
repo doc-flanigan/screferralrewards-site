@@ -44,7 +44,7 @@ export default function Footer() {
           <p className="mt-4 text-platinum/50 text-xs">
             Part of the{' '}
             <a href={HUB_URL} className="text-gold hover:underline">
-              o7citizen.com
+              dayonecitizen.com
             </a>{' '}
             fan-site network.
           </p>

@@ -147,3 +147,5 @@ vite.config.ts.timestamp-*
 
 # Local session summaries (not committed)
 .session-summaries/
+
+.vercel

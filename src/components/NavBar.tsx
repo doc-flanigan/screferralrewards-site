@@ -36,7 +36,7 @@ export default function NavBar() {
               rel="noopener noreferrer"
               className="text-platinum/60 hover:text-gold transition-colors"
             >
-              o7citizen.com ↗
+              dayonecitizen.com ↗
             </a>
           </li>
         </ul>

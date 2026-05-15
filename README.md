@@ -1,6 +1,6 @@
 # screferralreward.com
 
-> **Veteran-facing referral rewards site in the o7citizen.com portfolio**
+> **Veteran-facing referral rewards site in the dayonecitizen.com portfolio**
 
 Targets veteran Star Citizen players tracking their recruitment rewards and
 climbing the referral ladder. Sister site
@@ -13,7 +13,7 @@ https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
 
 ## Funnel
 screferralreward.com → rewards ladder + event tracker →
-o7citizen.com → RSI signup
+dayonecitizen.com → RSI signup
 
 ## Pages
 - `/` — Referral code, UEC bonus, how-to

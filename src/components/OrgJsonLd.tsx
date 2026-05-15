@@ -11,7 +11,7 @@ export default function OrgJsonLd() {
     publisher: {
       '@type': 'Organization',
       name: 'Doc_Flanigan',
-      url: 'https://o7citizen.com'
+      url: 'https://dayonecitizen.com'
     }
   };
   return (
