@@ -73,6 +73,19 @@ export default function Home() {
             subtitle="The referral bonus is automatic — no support tickets, no waiting periods. Apply the code at signup and the credits land after your first qualifying purchase."
           />
           <HowItWorks />
+          {/* SEO cross-link: dayonecitizen */}
+          <p className="text-center text-sm text-muted mt-6">
+            New to Star Citizen?{' '}
+            <a
+              href="https://dayonecitizen.com"
+              className="text-gold underline hover:text-goldDark"
+              target="_blank"
+              rel="noopener"
+            >
+              Get your Day One guide
+            </a>{' '}
+            before you dive in.
+          </p>
         </div>
       </section>
 
@@ -85,6 +98,18 @@ export default function Home() {
             subtitle="Anniversary, IAE, Invictus — RSI runs periodic bonus windows that stack on top of the standard referral reward. Standard bonus is always available."
           />
           <CountdownTimer />
+          <p className="text-sm text-muted mt-3 text-center">
+            Not ready to buy yet?{' '}
+            <a
+              href="https://freeflyevent.com"
+              className="text-gold underline hover:text-goldDark"
+              target="_blank"
+              rel="noopener"
+            >
+              Check if there&apos;s a Free Fly event
+            </a>{' '}
+            — you can try Star Citizen before you commit.
+          </p>
         </div>
       </section>
 
